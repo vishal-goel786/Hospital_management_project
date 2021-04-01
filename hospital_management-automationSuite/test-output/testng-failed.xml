@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="junitex.hospital_management">
+        <methods>
+          <include name="validateHomePageElements"/>
+          <include name="VerifyAddNewPatientFunctionality"/>
+          <include name="validatepharmacyPageElements"/>
+          <include name="validateNewpatientPageNavigation"/>
+          <include name="validatedoctorPageElements"/>
+          <include name="validatelabPageElements"/>
+          <include name="validateLogin"/>
+          <include name="ValidateStatusinDoctorHomepage"/>
+          <include name="validatecontactUsPageElements"/>
+          <include name="validateRoomPageElements"/>
+          <include name="validatepatientNavigationfromHomepage"/>
+          <include name="ValidateSignoutFunctionality"/>
+          <include name="ValidateCancelButtonFunctionalityinAddnewpatientpage"/>
+          <include name="ValidateShowdetailsButtonFunctionalityInPharmacyHomepage"/>
+          <include name="ValidatethepresenceofdeleteButtoninpatientpage"/>
+          <include name="initiateDriver"/>
+          <include name="ValidateDoctorDetailPageelement"/>
+          <include name="ValidateShowdetailsButtonFunctionalityInLabHomepage"/>
+          <include name="validatepatientPageElements"/>
+          <include name="ValidateShowdetailsButtonFunctionalityINDoctorsHomepage"/>
+          <include name="ValidatecancelButtonincontactuspage"/>
+          <include name="quitdriver"/>
+        </methods>
+      </class> <!-- junitex.hospital_management -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
